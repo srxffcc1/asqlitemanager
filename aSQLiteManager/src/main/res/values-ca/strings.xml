@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--β-->
+<string name="VersionNo">3.6</string>
+<string name="Version">Versió</string>
+<string name="hello">aSQLiteManager</string>
+<string name="app_name">aSQLiteManager</string>
+<string name="AboutHeader">Quant a aSQLiteManager</string>
+<string name="AboutText">Andsens és un gestor de SQLite. Us permet gestionar les vostres bases de dades per Android Androidbases de dades</string>
+<string name="WWW">Comprova si hi ha actualitzacions a:\nhttp://asqlitemanager.sourceforge.net</string>
+<string name="AAA">Podeu llegir més sobre aSQLiteManager aquí:\nhttp://aaa.andsen.dk/aSQLiteManager.html</string>
+<string name="MAIL">Ens agraden els vostres comentaris a:\nandroid41cv@gmail.com</string>
+<string name="OpdenDB">Obre la base de dades</string>
+<string name="About">Quant a</string>
+<string name="Location">Ubicació</string>
+<string name="View">Visualitza</string>
+<string name="Yes">Sí</string>
+<string name="No">No</string>
+<string name="DBTables">Taules</string>
+<string name="DBViews">Vistes</string>
+<string name="DBIndexs">Índex</string>
+<string name="DBTable">Taula</string>
+<string name="DBView">Mostra</string>
+<string name="DBIndex">Índex</string>
+<string name="DBField">Camp</string>
+<string name="DBData">Dades</string>
+<string name="DBSQL">SQL</string>
+<string name="OpenDatabase">Obre la base de dades</string>
+<string name="NoSDCard">No hi ha cap tarja SD disponible</string>
+<string name="OK">D\'acord</string>
+<string name="Path">Ruta:</string>
+<string name="Database">Base de dades</string>
+<string name="DBQuery">Consulta</string>
+<string name="Run">Executa-ho</string>
+<string name="DBFields">Camps</string>
+<string name="PgUp">Puja Pg</string>
+<string name="PgDn">Baixa Pg</string>
+<string name="Option">Opcions</string>
+<string name="Help">Ajuda</string>
+<string name="HelpHeader">L\'ajuda de aSQLiteManager</string>
+<string name="PageSize">Mida de la pàgina</string>
+<string name="PressMenuSQL">Premeu menu per a entrar una sentència SQL</string>
+<string name="PageSizeText">El nombre de línies de dades que es mostren a cada pàgina</string>
+<string name="Open">Obre</string>
+<string name="NoResult">No hi ha cap resultat</string>
+<string name="NewDB">Nova base de dades</string>
+<string name="NewDBSDCard">Genera una nova base de dades a la tarja SD</string>
+<string name="NewDBPath">Ruta a la nova base de dades</string>
+<string name="AutoIndex">SQLite no guarda les definicions dels índex automàtics</string>
+<string name="Message">Missatge</string>
+<string name="Error">Error</string>
+<string name="NoFileName">Cal com a mínim un nom de fitxer</string>
+<string name="DBQueryType">Tipus de consulta</string>
+<string name="OnClickedMess">Heu clicat sobre aquesta base de dades SQLite:</string>
+<string name="OnClickedOpen">Obre la base de dades amb\naSQLiteManager</string>
+<string name="RecentSQL">fitxers SQL recents</string>
+<string name="Transaction">Transacció</string>
+<string name="BeginTransaction">Comença la transacció</string>
+<string name="Commit">Confirma</string>
+<string name="Rollback">Desfés</string>
+<string name="InTransaction">A la transacció</string>
+<string name="UpdatesCommitted">S\'han confirmat els canvis</string>
+<string name="UpdatesRolledback">S\'han desfet els canvis</string>
+<string name="NothingToRolledback">No hi ha res per desfer</string>
+<string name="NothingToCommit">No hi ha res per confirmar</string>
+<string name="IsNotADatabase">no és una base de dades</string>
+<string name="Export">Exporta la base de dades</string>
+<string name="Restore">Restaura la base de dades</string>
+<string name="Cancel">Anul·la</string>
+<string name="ExportData">Exporta</string>
+<string name="NoExportToRestore">No s\'ha trobat res per restaurar</string>
+<string name="AlwaysJustOpen">Obre sempre la base de dades</string>
+<string name="Reset">Reinicia</string>
+<string name="OpenSQL">Obre el fitxer SQL</string>
+<string name="Working">S\'està treballant</string>
+<string name="ReadingScript">S\'està llegint la seqüència</string>
+<string name="ExecuteStatement">Executa la sentència</string>
+<string name="MustNotBeEmpty">No pot estar buida</string>
+<string name="ShowAtStartUp">Mostra la benvinguda en iniciar</string>
+<string name="Welcome">Benvingut a aSQLiteManager</string>
+<string name="DumpTable">Volca la taula</string>
+<string name="TableDumpep">S\'ha volcat la taula %s</string>
+<string name="DumpFailed">Vaja! no ha estat possible volcar-la!</string>
+<string name="ErrorNothingToExport">No hi ha res per exportar!</string>
+<string name="DataExported">S\'han exportat les dades</string>
+<string name="DataBaseExported">S\'ha exportat la base de dades</string>
+<string name="DataBaseRestored">S\'ha restaurat la base de dades</string>
+<string name="Patience">Un moment - això podria trigar una mica</string>
+<string name="Recently">Obertes recentment</string>
+<string name="RecentlyTxt">Nombre de les base de dades obertes recentment que cal desar</string>
+<string name="ROSystemTable">sqlite_master és una taula del sistema de només lectura</string>
+<string name="CouldNotCreate">No ha estat possible crear-la:</string>
+<string name="SystemFolder">Carpeta del sistema</string>
+<string name="SystemFolderText">Si disposeu de privilegis root al vostre mòbil podeu editar les bases de dades del sistema amb aSQLiteManager fent servir aShell</string>
+<string name="DBInfo">Informació de la DB</string>
+<string name="DatabaseInfo">Informació de la base de dades.</string>
+<string name="DatabaseExists">ja existeix!</string>
+<string name="RateMsg">Heu fet servir aSQLiteManager durant més d\'una setmana i al menys 10 cops.\nSi us agradat, si us plau recolceu-ho amb una bona valoració.\nTambé podeu fer una petita donació de diners (des de la pàgina inicial). Es farà servir per millorar el programa.\nGràcies pel vostre recolçament!</string>
+<string name="Rate">Valora-ho</string>
+<string name="Later">Ho faré el proper cop</string>
+<string name="NoThanks">Ja ho he fet</string>
+<string name="EditDeleteRow">Edita o suprimeix aquesta fila #</string>
+<string name="Delete">Suprimeix</string>
+<string name="CopiedToClipboard">S\'ha copiat el text al porta papers</string>
+<string name="InsertNewRow">Inserta una nova fila</string>
+<string name="EditRow">Edita la fila</string>
+<string name="Edit">Edita</string>
+<string name="New">Nova</string>
+<string name="First">Primera</string>
+<string name="Last">Darrera</string>
+<string name="Filter">Filtra</string>
+<string name="EnterWhere">Entreu la clàusula where (no where)</string>
+<string name="StrangeErr">Si podeu reproduir aquest error si us plau indiqueu-me per correu com provocar-ho ;-)\nTambé podeu usar aLogViewer per extreure més informació del registre del sistema per ajudarme a trobar el problema.</string>
+<string name="NotAnArror">No és un error</string>
+<string name="Normal">Normal</string>
+<string name="Root">Root</string>
+<string name="RootNeeded">Calen privilegis de root</string>
+<string name="RootWarning">No hi ha privilegis de root</string>
+<string name="EnterRoot">Entreu al catàleg de root, sigueu prudents:</string>
+<string name="LeavingRoot">Sortiu del catàleg de root:</string>
+<string name="RootEdit1">Voleu obrir una còpia del fitxer del sistema</string>
+<string name="RootEdit2">system file?</string>
+<string name="Warning">Avís</string>
+<string name="CommitChanges">Voleu confirmar els canvis?</string>
+<string name="CommitChangesTo">Confirma els canvis a:</string>
+<string name="OneMoreToExit">Premeu un cop més per sortir!</string>
+<string name="FilterHint">Entreu el filtre</string>
+<string name="Clear">Neteja</string>
+<string name="EnterFilter">Entreu el filtre</string>
+<string name="SuShell">Ubicació del executable su </string>
+<string name="SuShellText">L\'executable su es pot trobar a diferents llocs dintre o fora de la vostre ruta path</string>
+<string name="PauseTitle">Pausa en msec</string>
+<string name="PauseText">Després de començar a copiar la base de dades s\'espera aquest temps abans d\'obrir-la</string>
+<string name="RootNotFound">No s\'ha trobat el binari del shell Root a la ubicació habitual(o bé el mòbil no és root). Podeu indicar un altre ubicació del shell a configuració.</string>
+<string name="RootFilePickerTxt">Usa el selector de fitxers root</string>
+<string name="RootFilePickerMsg">Usa el selector de fitxers aShell per accedir a les bases de dades del sistema en mòbils amb privilegis de root</string>
+<string name="BasicConfiguration">Configuració bàsica</string>
+<string name="SuperUserPreferences">Preferències de l\'usuari super - Experimental</string>
+<string name="DebugPreferences">Preferències de depuració</string>
+<string name="LoggingTitle">Registre</string>
+<string name="LoggingText">Activa el registre per registrar la depuració</string>
+<string name="RootUseWarning">L\'edició de bases de dades del sistema és experimental i potencialment perillós - podrieu destruir les dades.\n\nNo canvieu les bases de dades del sistema si no esteu segur del que feu!\n\nAneu amb compte!\n</string>
+<string name="ShowRootWarning">No em tornis a avisar</string>
+<string name="CreateTable">Nova Taula</string>
+<string name="AddField">Afegeix un Camp</string>
+<string name="CreateField">Nou camp</string>
+<string name="MustEnterFieldName">Heu de posar un nom al camp!</string>
+<string name="MustEnterTableNameAndOneField">Heu de posar un nom a la taula i a al menys un camp!</string>
+<string name="SQLPreferences">Preferències de SQL</string>
+<string name="CannotDeleteAutoIndex">No és pot suprimir un índex automàtic</string>
+<string name="DeleteIndex">Suprimeix l\'índex</string>
+<string name="DeleteView">Suprimeix la vista</string>
+<string name="DeleteTable">Suprimeix la taula</string>
+<string name="CannotDeleteSysTable">No és pot suprimir una taula del sistema</string>
+<string name="DropItem">Voleu suprimir l\'element?</string>
+<string name="IndexDefCopied">S\'ha copiat la definició de l\'índex al porta papers</string>
+<string name="DescAutoIncError">No es pot marcar DESC i AutoInc a l\'hora encara que ho digui el manual</string>
+
+<!-- Translated to French to here -->
+
+<string name="NoRecentFiles">No hi ha fitxers recents ;-(</string>
+<string name="FontSizeText">Tipus de lletra de la llista de dades</string>
+<string name="FontSize">Tipus de lletra</string>
+<string name="DefaultModeText">Vista per omisssió al visualitzador de taules</string>
+<string name="DefaultMode">Vista per omisió</string>
+<string name="TableDef">Def. de la taula</string>
+<string name="NewRec">Nou Reg.</string>
+<string name="MainScreenInPortrait">Pantalla principal en vertical</string>
+<string name="MainScreenInPortraitText">Manté sempre la pantalla principal en mode vertical (cal reiniciar)</string>
+<string name="FKLists">Llistes de FK</string>
+<string name="FKListsText">Usa llistes per editar els camps de les claus forànies</string>
+<string name="SaveSQL">Desa la SQL</string>
+<string name="SaveSQLText">Desa la SQL a la base de dades</string>
+<string name="ForeignKeys">Activa les claus forànies</string>
+<string name="ForeignKeysText">Activa les restriccions de les claus forànies</string>
+<!-- Common strings for Dialogs -->
+<string name="DialogYes">Sí</string>
+<string name="DialogNo">No</string>
+<string name="DialogOK">D\'acord</string>
+<string name="DialogCancel">Anul·la</string>
+<string name="DialogAgain">De nou</string>
+<string name="DialogRetry">Reintenta</string>
+<!-- Dialog specific strings -->
+<string name="DialogSureResetAllSettingsTitle">Atenció</string>
+<string name="DialogSureResetAllSettingsMsg">Segur que voleu reiniciar totes les preferències?</string>
+<!-- Toast Messages -->
+<string name="ToastResetedAllSettings">S\'han reiniciat totes les preferències</string>
+<string name="FilePickerChooseThisFolder">Tria aquesta carpeta</string>
+<string name="NoDatabaseOpen">No hi ha cap base de dades vàlida oberta</string>
+<string name="InvalidOrEmptyFK">La clau forània no és vàlida o està buida</string>
+<string name="PlaceNewDBHere">Desa la nova base de dades aquí</string>
+<string name="NothingToInsert">No hi ha res a insertar!</string>
+<string name="SelectFromList">Tria d\'aquesta llista</string>
+<string name="SelectValue">Tria un valor</string>
+<string name="FKDefError">Cal indicar tan la clau forània taula com el camp""</string>
+<string name="Tip">Consell!</string>
+<string name="ShowTipAgain">Voleu tornar a veure aquest consell?</string>
+<string name="Tip1">Des de aquesta pantalla principal podeu:\n\nObrir una base de dades situada a la la tarja SD\nCrear una nova base de dades on the la tarja SD\nObrir una de les vostres bases de dades obertes recentment\nMostrar una breu informació sobre aSQLiteManager\n\nTambé podeu configurar aSQLiteManager, mostrar una llista de funcions previstes i reiniciar la configuració amb el botó del Menú.\n\nCom que aSQLIteManager és una interfície de SQLite només permet fer ambles bases de dades allò que SQLite permet. Aquesta regla val per gairebé tots els canvis al\'estructura de la taula.</string>
+<string name="Tip2">A la pantalla de consulta podeu:\n\nExecutar qualsevulla sentència SQLite SQL vàlida.\n\nUsant botó del Menú accediu a un senzill editor de SQL. Que us ajuda a construir sentències select, create, drop, delete i insert.\n\n Els resultats de les consultes es poden exportar a fitxers de text (situats al mateix  catàlegque la base de dades).\n\nIniciar transaccions, desfer i confirmar canvis de les dades.\n\nPer copiar el contingut de un camp al porta papers tan sols hem de clicar sobre elcamp.</string>
+<string name="Tip3">A la pantalla de la base de dades podeu:\n\nVeure totes les taules, vistes i indexs.\n\nSuprimir taules, vistes i indexs fent "clic llarg" sobre l\'objecte que voleu suprimir. No és possible suprimir els índexs de SQLite auto generats.\n\nDes del botó del Menú teniu accés a:\nExportar i restaurar les base de dades\nObrir fitxers amb ordres SQL (que es  poden executar línea línea o de cop)\nInfo sobre de la base de dades actual i\nUn assistent Nova Taula que us guia per crear una nova taula</string>
+<string name="Tip4">Des del visualitzador de taules podeu:\n\nVeure l\'estructura de la taula triada\nVeure les seves dades i fullejar les dades (indiqueu la mida de la pàgina configuració de la pantalla principal)\nAfegir nous registres (amb el botó "Nou" o triant Nova cel·la al títol de la fila)\nEditar una fila clicant Edita al primer camp de la fila\nPer suprimir un registre cliqueu Edita i useu el botó Suprimeix\n\nDes del Menu podeu:\n\nSaltar a la primera / darrera pàgina\nAfegir un filtre simple a les dades\nVolcar la taula a una seqüencia SQL (situada al mateix catàleg que la base de dades)\nVeure the SQL de creació de la taula. El podeu copiar al porta papers clicant a la cel·la</string>
+
+<string name="Translation">Tradueix Catalan di Paco Rivière</string>
+
+<!-- Translated to German to here -->
+<!-- Translated to Catalan to here -->
+<!-- Translated to French to here -->
+<!-- Translated to Italian to here -->
+<!-- Translated to Brazilian to here -->
+<!-- Translated to Spanish to here -->
+
+<string name="DeleteField">Suprimeix el camp</string>
+<string name="NoSuchDatabase">No es troba la base de dades</string>
+<string name="MaxWidth">Amplada màxima dels camps</string>
+<string name="MaxWidthText">Amplada màxima dels camps en la vista de taula</string>
+<string name="AddToFilter">Afegeix un filtre</string>
+<string name="EnterValues">Entreu el(s) valor(s)</string>
+<string name="SQLEditor">Editor SQL</string>
+<string name="QEMaxLines">Nombre màxim de línies a l\'editor en focus</string>
+<string name="QEMaxLinesText">Nombre màxim de línies a l\'editor en mode edició</string>
+<string name="QEMinLines">Linies sense focus</string>
+<string name="QEMinLinesText">Nombre mínim de línies a l\'editor en focus</string>
+<string name="CSVExport">Exporta a un fitxer separat per comes</string>
+<string name="CSVImport">Importa des d\'un fitxer separat per comes</string>
+<string name="BlobReadWrite">Llegeix o escriu a un camp Blob</string>
+<string name="BlobHint">A l mateixa carpeta que la base de dades</string>
+<string name="EnterFileName">Indiqueu el nom del fitxer</string>
+<string name="Extract">Extreu</string>
+<string name="Load">Carrega</string>
+<string name="MustGiveFileName">Heu d\'indicar un nom per al fitxer</string>
+<string name="BlobEditMessage">Extreu o carrega noves dades al camp BLOB de</string>
+<string name="BlobExtractMessage">Extreu les dades del camp BLOB de</string>
+<string name="CSVExportError">Hi ha hagut un error en exportar al fitxer CSV:</string>
+<string name="CSVExportSavedHere">El fitxer CSV exportat s\'ha desat a:</string>
+<string name="CSVEImortError">Hi ha hagut un error en importar del fitxer CSV:</string>
+<string name="CanNotRead">No ha estat possible llegir:</string>
+<string name="CSVImported">El fitxer CSV s\'ha importat de:</string>
+<string name="FileNotFound">No ha estat possible trobar el fitxer!</string>
+<string name="CanNotReadFile">No ha estat possible llegir el fitxer!</string>
+
+<!-- Translated to Rusian to here -->
+
+<string name="PlaceItHere">Poseu-ho aquí</string>
+<string name="IgnoreCase">Ignora les majúscules</string>
+<string name="NewDBName">Nom de la base de dades</string>
+<string name="Ascending">Ascendent</string>
+<string name="ByName">Per nom</string>
+<string name="ByExtension">Per extensió</string>
+<string name="ByDate">Per data</string>
+<string name="BySize">Per mida</string>
+<string name="Sorting">Ordena</string>
+<string name="SortingAndFilter">Ordena i filtra</string>
+<string name="FileTypeFilter">Tipus de fitxers, separats per ;</string>
+<string name="UseRoot">Com a root?</string>
+<string name="UseRootText">Voleu fer servir els privilegis de root per als fitxers del sistema?</string>
+<string name="CommitText">La base de dades ha canviat\nVoleu confirmar els canvis?</string>
+<string name="ReRead">Torna a llegir el fitxer CSV</string>
+<string name="NoFieldsSelected">No heu indicat cap camp</string>
+<string name="LinesToSkip">Línies que voleu altar</string>
+<string name="FieldsToImport">Els camps que voleu importar</string>
+<string name="FieldsToExport">Camps que voleu exportar</string>
+<string name="NewFileName">Nom del fitxer</string>
+<string name="NewFilePath">Ruta</string>
+<string name="FileNameAndPath">Indiqueu el nom i la ruta del fitxer</string>
+<string name="Save">Desa</string>
+<string name="Exit">Surt</string>
+<string name="Favorites">Preferits</string>
+<string name="NoFavorites">No hi ha cap preferit ;-(</string>
+<string name="AddToFavorites">Afegeix als preferits</string>
+<string name="NoRootMsg">No ha estat possible trobar el shell del Root, que s\'ha cercat a:\nsu,\n/system/bin/su i a\n/system/xbin/su\n\nSi coneixeu la ubicació del su ho podeu indicar a la configuració</string>
+<string name="SuFoundMSG">S\'ha trobat el shell del Root</string>
+<string name="CannotReadSystemDirs">No ha estat possible llegir les carpetes del sistema</string>
+
+<!-- Translated to Danish to here -->
+
+<!-- Place new text just above here -->
+<!-- From here text changes in every version -->
+
+<!-- List of functionality for help screen -->
+
+<!-- Here write what is new in this version -->
+<string name="WelcomeMsg">aSQLiteManager és un gestor de SQLite de codi obert / per a dispositius Android.\n\nNou a la versió 3.6:      \n\nThere is quite a few new features in version 3.6:
+			\n\n•	New file picker with:
+			\n	•	Show file names, sizes, dates and icons
+			\n	•	Sorting (name, extension, size, date - ascending, descending, ignore case) and
+			\n	•	filtering of files (e.g. *.sqlite;*.db) in file picker
+			\n	•	Favorites directories for fast navigation to often visited places 
+			\n	•	CSV export wizards that allows export of user selected fields
+			\n	•	Import wizards that allows the user select a CSV file and which column from
+			the CSV file to import into which fields in the current table. 
+			\n	•	Now the user dictionary are updated with your words
+			\n	•	Code clean up binaries decreased with approximately 20%
+			\n	•	Import and export of tables with triggers
+			\n	•	Better handling of triggers during update with record editor
+			\n	•	Translated to Russian, updated German, Catalan and French translations
+			\n	•	Fixed problems with CSV export - nulls and special table names are now
+			handled correctly
+			\nMillor gestió de la base de dades\nCorrecció d\'errors\nPodeu trobar la descripció de totes les característiques a:\naaa.andsen.dk/aSQLiteManager.html\n\nEstaré encantat de rebre comentaris, informes d\'error i suggerències.envieu un correu a:\nandroid41cv@gmail.com\n\nI gràcies al que informeu dels errors en lloc de queixar-vos ;-)\n\nÀnims i que fruiu de l\'apliació!\n\nMartin</string>
+</resources>

@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--β-->
+    <string name="VersionNo">3.6</string>
+    <string name="Version">Version</string>
+    <string name="hello">aSQLiteManager</string>
+    <string name="app_name">aSQLiteManager</string>
+    <string name="AboutHeader">About aSQLiteManager</string>
+    <string name="AboutText">Andsens SQLite manager. Manage your Android 
+        databases</string>
+    <string name="WWW">Check for updates at:\nhttp://asqlitemanager.sourceforge.net</string>
+    <string name="AAA">Read more about aSQLiteManager at:\nhttp://aaa.andsen.dk/aSQLiteManager.html</string>
+    <string name="MAIL">Comments welcome on:\nandroid41cv@gmail.com</string>
+    <string name="OpdenDB">Open Database</string>
+    <string name="About">About</string>
+    <string name="Location">Location</string>
+    <string name="View">View</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="DBTables">Tables</string>
+    <string name="DBViews">Views</string>
+    <string name="DBIndexs">Index</string>
+    <string name="DBTable">Table</string>
+    <string name="DBView">View</string>
+    <string name="DBIndex">Index</string>
+    <string name="DBField">Field</string>
+    <string name="DBData">Data</string>
+    <string name="DBSQL">SQL</string>
+    <string name="OpenDatabase">Open database</string>
+    <string name="NoSDCard">No SDCard available</string>
+    <string name="OK">OK</string>
+    <string name="Path">Path:</string>
+    <string name="Database">Database</string>
+    <string name="DBQuery">Query</string>
+    <string name="Run">Run</string>
+    <string name="DBFields">Fields</string>
+    <string name="PgUp">PgUp</string>
+    <string name="PgDn">PgDn</string>
+    <string name="Option">Options</string>
+    <string name="Help">Help</string>
+    <string name="HelpHeader">aSQLiteManager help</string>
+    <string name="PageSize">Page size</string>
+    <string name="PressMenuSQL">Press menu to build SQL</string>
+    <string name="PageSizeText">Number of lines to retrieve when paging data</string>
+    <string name="Open">Open</string>
+    <string name="NoResult">No result</string>
+    <string name="NewDB">New database</string>
+    <string name="NewDBSDCard">New database on SDCard</string>
+    <string name="NewDBPath">Path to new database</string>
+    <string name="AutoIndex">SQLite does not store auto index definitions</string>
+    <string name="Message">Message</string>
+    <string name="Error">Error</string>
+    <string name="NoFileName">Must at least give a file name</string>
+    <string name="DBQueryType">Query Type</string>
+    <string name="OnClickedMess">You clicked on this SQLite database:</string>
+    <string name="OnClickedOpen">Open database with\naSQLiteManager</string>
+    <string name="RecentSQL">Recent SQL</string>
+    <string name="Transaction">Transaction</string>
+    <string name="BeginTransaction">Begin transaction</string>
+    <string name="Commit">Commit</string>
+    <string name="Rollback">Rollback</string>
+    <string name="InTransaction">In transaction</string>
+    <string name="UpdatesCommitted">Updates committed</string>
+    <string name="UpdatesRolledback">Updates rolled back</string>
+    <string name="NothingToRolledback">Nothing to rolledback</string>
+    <string name="NothingToCommit">Nothing to commit</string>
+    <string name="IsNotADatabase">is not a database</string>
+    <string name="Export">Export database</string>
+    <string name="Restore">Restore database</string>
+    <string name="Cancel">Cancel</string>
+    <string name="ExportData">Export</string>
+    <string name="NoExportToRestore">No export to restore</string>
+    <string name="AlwaysJustOpen">Always open database</string>
+    <string name="Reset">Reset</string>
+    <string name="OpenSQL">Open SQL file</string>
+    <string name="Working">Working</string>
+    <string name="ReadingScript">Reading script</string>
+    <string name="ExecuteStatement">Execute statement</string>
+    <string name="MustNotBeEmpty">Must not be empty</string>
+    <string name="ShowAtStartUp">Show welcome at startup</string>
+    <string name="Welcome">Welcome to aSQLiteManager</string>
+    <string name="DumpTable">Dump table</string>
+    <string name="TableDumpep">Table %s dumped</string>
+    <string name="DumpFailed">Ups! dump failed</string>
+    <string name="ErrorNothingToExport">Nothing to export!</string>
+    <string name="DataExported">Data exported</string>
+    <string name="DataBaseExported">Database exported</string>
+    <string name="DataBaseRestored">Database restored</string>
+    <string name="Patience">Patience - might take a while</string>
+    <string name="Recently">Recently opened</string>
+    <string name="RecentlyTxt">No. of recently opened databases to save</string>
+    <string name="ROSystemTable">sqlite_master is a read only system table</string>
+    <string name="CouldNotCreate">Could not create:</string>
+    <string name="SystemFolder">System folder</string>
+    <string name="SystemFolderText">If your phone is rootet you can edit system databases with aSQLiteManager using aShell</string>
+    <string name="DBInfo">DB Info</string>
+    <string name="DatabaseInfo">Database info.</string>
+    <string name="DatabaseExists">already exists!</string>
+		<string name="RateMsg">
+			You have now used aSQLiteManager in more than a week and at least 10 times.
+			\nIf you like using it, please support it by a good rating.
+			\nYou can also donate a small amount of money (from the home
+			page). It will be used to improve the program.
+			\nThanks for your support!</string>
+		<string name="Rate">Rate</string>
+		<string name="Later">I\'ll do it next time</string>
+		<string name="NoThanks">I have done it</string>
+		<string name="EditDeleteRow">Edit or delete this row #</string>
+		<string name="Delete">Delete</string>
+		<string name="CopiedToClipboard">Text copied to clip board</string>
+		<string name="InsertNewRow">Insert new row</string>
+		<string name="EditRow">Edit row</string>
+		<string name="Edit">Edit</string>
+		<string name="New">New</string>
+		<string name="First">First</string>
+		<string name="Last">Last</string>
+		<string name="Filter">Filter</string>
+		<string name="EnterWhere">Enter where clause (no where)</string>
+		<string name="StrangeErr">If you can reproduce this error please tell me
+		    by mail how to provoke it ;-)
+		    \nYou can also also use aLogViewer to extract extra informations
+		    form the system log to help me find out what is wrong.</string>
+		<string name="NotAnArror">Not an error</string>
+		<string name="Normal">Normal</string>
+		<string name="Root">Root</string>
+    <string name="RootNeeded">Root mode needed to access</string>
+    <string name="RootWarning">No Root access</string>
+    <string name="EnterRoot">Entering a root catalog be careful:</string>
+    <string name="LeavingRoot">Leaving root catalog:</string>
+    <string name="RootEdit1">Do you want to open a copy of</string>
+    <string name="RootEdit2">system file?</string>
+    <string name="Warning">Warning</string>
+    <string name="CommitChanges">Commit changes?</string>
+    <string name="CommitChangesTo">Commit changes to:</string>
+    <string name="OneMoreToExit">Press once more to exit!</string>
+    <string name="FilterHint">Enter filter</string>
+    <string name="Clear">Clear</string>
+    <string name="EnterFilter">Enter filter</string>
+    <string name="SuShell">Location of su executable</string>
+    <string name="SuShellText">The su executable can be located in different places inside or outside of your path</string>
+    <string name="PauseTitle">Pause in msec</string>
+    <string name="PauseText">Time to wait after starting to copy database before opening it</string>
+    <string name="RootNotFound">Root shell binary not found in standard location
+        (or phone not rooted). You can define root shell location in configuration.</string>
+    <string name="RootFilePickerTxt">Use root file picker</string>
+    <string name="RootFilePickerMsg">Use aShell root file picker to access system databases on rooted phones</string>
+    <string name="BasicConfiguration">Basic configuration</string>
+    <string name="SuperUserPreferences">Super user preferences - Experimental</string>
+    <string name="DebugPreferences">Debugging preferences</string>
+    <string name="LoggingTitle">Logging</string>
+    <string name="LoggingText">Enable logging to retrieve debugging informations</string>
+    <string name="RootUseWarning">Editing system databases is experimental and potential
+        dangerous - you might destroy data.
+        \n\nDo not alter system databases unless you know what you are doing!
+        \n\nTake care!\n</string>
+    <string name="ShowRootWarning">Got it - stop telling me</string>
+    <string name="CreateTable">New Table</string>
+    <string name="AddField">Add Field</string>
+    <string name="CreateField">Create field</string>
+    <string name="MustEnterFieldName">You must enter a field name!</string>
+    <string name="MustEnterTableNameAndOneField">You must enter a table name and at least one field!</string>
+    <string name="SQLPreferences">SQLPreferences</string>
+    <string name="CannotDeleteAutoIndex">Cannot delete auto generated index</string>
+    <string name="DeleteIndex">Delete index</string>
+    <string name="DeleteView">Delete view</string>
+    <string name="DeleteTable">Delete table</string>
+    <string name="CannotDeleteSysTable">Cannot delete system table</string>
+    <string name="DropItem">Drop item?</string>
+    <string name="IndexDefCopied">Index definition copied to clip board</string>
+    <string name="DescAutoIncError">DESC and AutoInc must not both be checked although the manual says otherwise</string>
+
+    <!-- Translated to French to here -->
+        
+    <string name="NoRecentFiles">No recent files ;-(</string>
+    <string name="FontSizeText">Font size to use data list</string>
+    <string name="FontSize">Font size</string>
+    <string name="DefaultModeText">Default view in table viewer</string>
+    <string name="DefaultMode">Default view</string>
+    <string name="TableDef">Table def.</string>
+    <string name="NewRec">New Rec.</string>
+    <string name="MainScreenInPortrait">Main screen in portrait</string>
+    <string name="MainScreenInPortraitText">Always keep main screen in portrait (after restart)</string>
+    <string name="FKLists">FK lists</string>
+    <string name="FKListsText">Use lists when editing FK fields</string>
+    <string name="SaveSQL">Save SQL</string>
+    <string name="SaveSQLText">Save SQL in database</string>
+    <string name="ForeignKeys">Enable foreign keys</string>
+    <string name="ForeignKeysText">Turn on foreign key constraints</string>
+    <!-- Common strings for Dialogs -->    
+    <string name="DialogYes">Yes</string>
+    <string name="DialogNo">No</string>
+    <string name="DialogOK">OK</string>
+    <string name="DialogCancel">Cancel</string>
+    <string name="DialogAgain">Again</string>
+    <string name="DialogRetry">Retry</string>
+    <!-- Dialog specific strings --> 
+    <string name="DialogSureResetAllSettingsTitle">Attention</string>
+    <string name="DialogSureResetAllSettingsMsg">Do you really want to reset all preferences?</string>
+    <!-- Toast Messages --> 
+    <string name="ToastResetedAllSettings">All preferences were reseted to default</string>
+    <string name="FilePickerChooseThisFolder">Choose this folder</string>
+    <string name="NoDatabaseOpen">No valid database has been opened</string>
+    <string name="InvalidOrEmptyFK">Foreign key invalid or empty</string>
+    <string name="PlaceNewDBHere">Place new database here</string>
+    <string name="NothingToInsert">Noting to insert!</string>
+    <string name="SelectFromList">Select from list</string>
+    <string name="SelectValue">Select value</string>
+    <string name="FKDefError">Both foreign key table and field must be specified""</string>
+    <string name="Tip">Tip!</string>
+    <string name="ShowTipAgain">Show this tip again?</string>
+		<string name="Tip1">From this main screen you can:
+			\n\nOpen an existing database located on the sdCard
+			\nCreate a new database on the sdCard
+			\nOpen one of your recently used database
+			\nShow brief informations about aSQLiteManager
+			\n\nYou can also configure aSQLiteManager, show a list of implemented
+			functions and reset the configuration by hitting the Menu button.
+			\n\nAs aSQLIteManager is a SQLite front end it is only possible to do with
+			the databases what SQLite allows. This rules out nearly all changes to 
+			table structure.</string>
+		<string name="Tip2">From query screen you can:
+			\n\nExecute any valid SQLite SQL statements.
+			\n\nUsing the Menu button you have access to a simple SQL builder, This can
+			help with building select, create, drop, delete and insert commands.
+			\n\n Query results can be exported to text files (located in the same catalog
+			as the database).
+			\n\nYou can start transactions, roll back and commit changes to data.
+			\n\nTo copy the content of a data cell to the clip board just tap at the
+			cell.</string>
+		<string name="Tip3">From database screen you can:
+			\n\nSee all tables, views and indexes.
+			\n\nDelete tables, views and indexes by "long tapping" the item you want to
+			delete. It is not possible to delete SQLietes auto generated indexes.
+			\n\nFrom the Menu button you have access to:
+			\nExport and restore of databases
+			\nOpen files containing SQL commands (can be executed line by line whole
+			script)
+			\nInfo about current database and
+			\nA New Table wizard that can guide through the creation of a new table
+			</string>
+		<string name="Tip4">From table viewer you can:
+			\n\nSee the structure of the selected table
+			\nSee its data and page through the data (set the page size in configuration
+			on main screen)
+			\nAdd new records (by using the "New" button or by tapping New cell in the
+			title row)
+			\nEdit a row by tapping Edit in the first cell of the row
+			\nTo delete a record tap Edit and and use the Delete button
+			\n\nFrom the Menu you can:
+			\n\nJump to the first / last page
+			\nAdd a simple filter to data
+			\nDump the table to a SQL script (located in the same catalog as the database)
+			\nSee the SQL needed to create the table. This can be copied to the clip board
+			by tapping the cell
+		</string>
+		    		    		    
+    <string name="Translation">Translate aSQLiteManager to your language and get your name here</string>
+        
+    <!-- Translated to Italian to here -->
+    <!-- Translated to Brazilian to here -->
+    <!-- Translated to Spanish to here -->
+
+    <string name="DeleteField">Delete field</string>
+    <string name="NoSuchDatabase">No such database</string>
+    <string name="MaxWidth">Max width of fields</string>
+    <string name="MaxWidthText">Maximum width of fields in grid view</string>
+    <string name="AddToFilter">Add to filter</string>
+    <string name="EnterValues">Enter value(s)</string>
+    <string name="SQLEditor">SQL editor</string>
+    <string name="QEMaxLines">Max. lines when in focus</string>
+    <string name="QEMaxLinesText">Max number of lines in editor when editing</string>
+    <string name="QEMinLines">Lines not in focus</string>
+    <string name="QEMinLinesText">Number of lines in editor when not in focus</string>
+    <string name="CSVExport">Export to CSV file</string>
+    <string name="CSVImport">Import from CSV file</string>
+    <string name="BlobReadWrite">Read from / write to Blob</string>
+    <string name="BlobHint">In same dir. as database</string>
+    <string name="EnterFileName">Enter file name</string>
+    <string name="Extract">Extract</string>
+    <string name="Load">Load</string>
+    <string name="MustGiveFileName">You must give a file name</string>
+    <string name="BlobEditMessage">Extract from or load new data to BLOB field from\n</string>
+    <string name="BlobExtractMessage">Extract data from BLOB field from\n</string>
+    <string name="CSVExportError">CSV Export Error:\n</string>
+    <string name="CSVExportSavedHere">CSV Export saved here:\n</string>
+    <string name="CSVEImortError">CSV Import Error:\n</string>
+    <string name="CanNotRead">Can not read:</string>
+    <string name="CSVImported">CSV imported from:\n</string>
+    <string name="FileNotFound">File not found!</string>
+    <string name="CanNotReadFile">Can not read file!</string>
+    
+    <!-- Translated to Rusian to here -->
+
+    <string name="PlaceItHere">Place it here</string>
+    <string name="IgnoreCase">Ignore case</string>
+    <string name="NewDBName">Database name</string>
+    <string name="Ascending">Ascending</string>
+    <string name="ByName">By name</string>
+    <string name="ByExtension">By extension</string>
+    <string name="ByDate">By date</string>
+    <string name="BySize">By size</string>
+    <string name="Sorting">Sorting</string>
+    <string name="SortingAndFilter">Sorting and filter</string>
+    <string name="FileTypeFilter">Filtypes ; separated</string>
+    <string name="UseRoot">Use root?</string>
+    <string name="UseRootText">Allow root access to system files?</string>
+    <string name="CommitText">Database has ben changed.\nCommit changes?</string>
+    <string name="ReRead">Reread csv</string>
+    <string name="NoFieldsSelected">No fields selected</string>
+    <string name="LinesToSkip">Lines to skip</string>
+    <string name="FieldsToImport">Fields to import into</string>
+    <string name="FieldsToExport">Fields to export</string>
+    <string name="NewFileName">File name</string>
+    <string name="NewFilePath">Path</string>
+    <string name="FileNameAndPath">Enter file name and select path</string>
+    <string name="Save">Save</string>
+    <string name="Exit">Exit</string>
+    <string name="Favorites">Favorites</string>
+    <string name="NoFavorites">No favorites ;-(</string>
+    <string name="AddToFavorites">Add to favorites</string>
+    <string name="NoRootMsg">Root shell not found looked in:
+				\nsu,
+				\n/system/bin/su and
+				\n/system/xbin/su
+				\n\nIf you know the location of su you can configure it in the configuration</string>
+    <string name="SuFoundMSG">Root shell found</string>
+    <string name="CannotReadSystemDirs">Cannot read system directories</string>
+    
+    <!-- Translated to German to here -->
+    <!-- Translated to Catalan to here -->
+    <!-- Translated to French to here -->
+    <!-- Translated to Danish to here -->
+
+    <!-- Place new text just above here -->
+    <!-- From here text changes in every version -->
+    
+    <!-- List of functionality for help screen -->
+    <string name="HelpText">
+      Visit aSQLiteMagers\'s home page at:
+      \nhttp://aaa.andsen.dk/aSQLiteManager.html
+      \nTo get a complete list of the functionality supported by aSQLiteManager. 
+      \n\nYou can also send comments bug reports and feature requests to me at:
+      \nandroid41cv@gmail.com
+      \nImport and extract data from BLOB fields
+			\nSimple CSV import and export
+			\nNew advanced filter builder
+			\nNow works with large SQL queries - editor scrinks when SQL is executed (you
+				can configure the min. and max. numberof lines)
+			\nData entry / editor tool allow insert, update and delete on views
+				with instead of insert, update and delete triggers
+			\nSort data in table viewer by clicking on title of column
+      \nA create databases tool to easily create tables 
+      \nEasy deletion of tables, views and indexes
+      \nForeign key constraint checking can be turned on
+      \nEditing foreign key fields using selection list
+      \nOpen databases from aSQLiteManager or from file managers
+      \nList tables, views and indexes
+      \nDatabase info
+      \nDisplay data from tables and views
+      \nFields in the table viewer are colored based on the type of the field. As SQLite doesn\'t has field type validation the field type can differ from field type given with the create table statement
+      \nData editing and deleting form table browser from Edit label at each row
+      \nData entry add record from label on title at data browser
+      \nExecute any SQL including \'Drop\' / \'Create\' statements
+      \nSupport for BLOB fields (except during editing)
+      \nSupport Begin transaction, Commit and Rollback
+      \nCopy any cell to the clip board by pressing it
+      \nSupport table names and field names with spaces
+      \nStore all executed statements in the opened database in a table called aSQLiteManager (by default turned off)
+      \nSelect SQL history from query form
+      \nExport database to SQL script and restore databases from script
+      \nDump table from table view to file named Database.Table.sql - can be loaded by execute file as script
+      \nExport of query results to ASCII file
+      \nExecute SQL scripts, full script or single lines
+      \nRemember recently opened databases for quick access to often used databases
+      \nUse aShell (Beta) to edit system databases on rooted devices
+      \n\nMartin
+    </string>
+
+    <!-- Here write what is new in this version -->
+    <string name="WelcomeMsg">aSQLiteManager is a free open source
+  	  SQLite manager / front end for Android devices.
+  	  
+  	  You can support development by
+  	  buying the donate version. If you do this you will be among the first to get the
+  	  new features. Right now the donate version support direct editing of system
+  	  databases on rooted devices.
+
+      \n\nThere is quite a few new features in version 3.6:
+			\n\n•	New file picker with:
+			\n	•	Show file names, sizes, dates and icons
+			\n	•	Sorting (name, extension, size, date - ascending, descending, ignore case) and
+			\n	•	filtering of files (e.g. *.sqlite;*.db) in file picker
+			\n	•	Favorites directories for fast navigation to often visited places 
+			\n	•	CSV export wizards that allows export of user selected fields
+			\n	•	Import wizards that allows the user select a CSV file and which column from
+			the CSV file to import into which fields in the current table. 
+			\n	•	Now the user dictionary are updated with your words
+			\n	•	Code clean up binaries decreased with approximately 20%
+			\n	•	Import and export of tables with triggers
+			\n	•	Better handling of triggers during update with record editor
+			\n	•	Translated to Russian, updated German, Catalan and French translations
+			\n	•	Fixed problems with CSV export - nulls and special table names are now
+			handled correctly
+			\n	•	Some other problem solved
+
+      \n\nFor a description of all features check:
+      \naaa.andsen.dk/aSQLiteManager.html
+      \n\nComments, bug reports and feature requests are welcome.
+      	just drop me a mail at:
+      \nandroid41cv@gmail.com
+      \n\nAnd thanks to those of you who report bugs instead of complaining ;-) 
+      \n\nHope you enjoy the app!
+      \n\nMartin
+    </string>
+</resources>

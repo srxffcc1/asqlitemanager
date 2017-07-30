@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content">
+	<ImageView android:id="@+id/icon"
+      android:layout_height="wrap_content"
+      android:src="@drawable/ic_folder_old"
+      android:layout_width="25dp"
+      android:layout_marginTop="1dp"
+      android:layout_marginRight="4dp"
+      android:layout_marginLeft="4dp" />
+	<TextView android:text="@+id/label"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/label"
+      android:gravity="center_vertical"
+      android:textSize="20sp"/>
+</LinearLayout>

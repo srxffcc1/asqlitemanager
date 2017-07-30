@@ -1,0 +1,118 @@
+<PreferenceScreen
+   xmlns:android="http://schemas.android.com/apk/res/android">
+  <PreferenceCategory
+  	android:title="@string/BasicConfiguration"
+  	>
+	  <EditTextPreference
+	    android:key="PageSize"
+	    android:title="@string/PageSize"
+	    android:summary="@string/PageSizeText"
+	    android:inputType="number"
+	    android:defaultValue="20"
+		/>
+    <EditTextPreference
+      android:key="FontSize"
+      android:title="@string/FontSize"
+      android:summary="@string/FontSizeText"
+      android:inputType="number"
+      android:defaultValue="12"
+    />
+    <EditTextPreference
+      android:key="MaxWidth"
+      android:title="@string/MaxWidth"
+      android:summary="@string/MaxWidthText"
+      android:inputType="number"
+      android:defaultValue="0"
+    />
+ 	  <EditTextPreference
+		  android:key="RecentFiles"
+		  android:title="@string/Recently"
+		  android:summary="@string/RecentlyTxt"
+		  android:inputType="number"
+		  android:defaultValue="5"
+	  />
+    <ListPreference android:key="DefaultView"
+      android:title="@string/DefaultMode"
+      android:summary="@string/DefaultModeText"
+      android:entries="@array/Modes"
+      android:entryValues="@array/ModeValues"
+      android:defaultValue="1"
+    />      
+		<CheckBoxPreference
+	    android:key="MainVertical"
+	    android:title="@string/MainScreenInPortrait"
+	    android:summary="@string/MainScreenInPortraitText"
+	    android:defaultValue="false"
+	  />
+  </PreferenceCategory>
+  <PreferenceCategory
+ 		android:title="@string/SQLEditor">
+	  <EditTextPreference
+	    android:key="QEMaxLines"
+	    android:title="@string/QEMaxLines"
+	    android:summary="@string/QEMaxLinesText"
+	    android:inputType="number"
+	    android:defaultValue="10"
+		/>
+	  <EditTextPreference
+	    android:key="QEMinLines"
+	    android:title="@string/QEMinLines"
+	    android:summary="@string/QEMinLinesText"
+	    android:inputType="number"
+	    android:defaultValue="1"
+		/>
+  </PreferenceCategory>
+  <PreferenceCategory
+ 		android:title="@string/SQLPreferences">
+	  <CheckBoxPreference
+	    android:key="FKList"
+	    android:title="@string/FKLists"
+	    android:summary="@string/FKListsText"
+	    android:defaultValue="false"
+	  />
+	  <CheckBoxPreference
+	    android:key="SaveSQL"
+	    android:title="@string/SaveSQL"
+	    android:summary="@string/SaveSQLText"
+	    android:defaultValue="false"
+	  />
+	  <CheckBoxPreference
+	    android:key="EnableForeignKeys"
+	    android:title="@string/ForeignKeys"
+	    android:summary="@string/ForeignKeysText"
+	    android:defaultValue="false"
+	  />
+  </PreferenceCategory>
+  <PreferenceCategory
+ 		android:title="@string/DebugPreferences">
+    <CheckBoxPreference
+	    android:key="Logging"
+	    android:title="@string/LoggingTitle"
+	    android:summary="@string/LoggingText"
+	    android:defaultValue="false"
+	  />
+	</PreferenceCategory>
+<!--   <PreferenceCategory -->
+<!--   	android:title="@string/SuperUserPreferences"> -->
+<!-- 	  <CheckBoxPreference -->
+<!-- 	    android:key="TestRoot" -->
+<!-- 	    android:title="@string/RootFilePickerTxt" -->
+<!-- 	    android:summary="@string/RootFilePickerMsg" -->
+<!-- 	    android:defaultValue="false" -->
+<!-- 	  /> -->
+<!-- 	  <EditTextPreference -->
+<!-- 	  	android:key="SuShell" -->
+<!-- 	    android:title="@string/SuShell" -->
+<!-- 	    android:summary="@string/SuShellText" -->
+<!-- 	    android:inputType="text" -->
+<!-- 	    android:defaultValue="" -->
+<!-- 	  /> -->
+<!-- 	  <EditTextPreference -->
+<!-- 	  	android:key="Pause" -->
+<!-- 	    android:title="@string/PauseTitle" -->
+<!-- 	    android:summary="@string/PauseText" -->
+<!-- 	    android:inputType="number" -->
+<!-- 	    android:defaultValue="500" -->
+<!-- 	  /> -->
+<!-- 	</PreferenceCategory> -->
+</PreferenceScreen>

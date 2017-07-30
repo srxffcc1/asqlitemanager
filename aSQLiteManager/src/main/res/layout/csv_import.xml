@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+  <LinearLayout
+      android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+    <TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/LinesToSkip"
+        />
+	  <EditText 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:inputType="numberDecimal"
+		    android:hint="@string/LinesToSkip"
+		    android:id="@+id/cvs_imp_skip" 
+		    android:text="0" />
+  </LinearLayout>
+  <HorizontalScrollView 
+      android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+      >
+	  <TextView 
+	 	    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:minLines="4"
+		    android:maxLines="4"
+		    android:scrollHorizontally="true"
+		    android:textIsSelectable="true"
+		    android:id="@+id/csv_first_lines" />
+	  </HorizontalScrollView>
+  <TextView 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/FieldsToImport" />
+  <ScrollView 
+	    android:layout_width="fill_parent"
+	    android:layout_height="match_parent"
+	 		android:layout_weight="2" >
+		<LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+				android:orientation="vertical"
+		 		android:id="@+id/csv_imp_fields" >
+		</LinearLayout>    
+  </ScrollView>
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+			android:orientation="horizontal" >
+	  <Button 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+    		android:layout_weight="1"
+    		android:id="@+id/csv_imp_reread"
+	    	android:layout_gravity="center_vertical"
+		    android:text="@string/ReRead" />
+ 	  <Button 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+    		android:layout_weight="1"
+    		android:id="@+id/csv_imp_cansel"
+	    	android:layout_gravity="center_vertical"
+		    android:text="@string/Cancel" />
+	  <Button
+	    	android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_weight="1"
+    		android:id="@+id/csv_imp_ok"
+	  	  android:layout_gravity="center_vertical"
+   		 	android:text="@string/OK" />
+ 	</LinearLayout>    
+</LinearLayout>

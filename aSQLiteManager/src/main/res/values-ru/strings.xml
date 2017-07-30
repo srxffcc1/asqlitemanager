@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--β-->
+<string name="VersionNo">3.6 Пожертвовать</string>
+<string name="Version">Версия</string>
+<string name="hello">aSQLiteManager</string>
+<string name="app_name">aSQLiteManager</string>
+<string name="AboutHeader">О программе aSQLiteManager</string>
+<string name="AboutText">Andsens SQLite manager. Управление базами данных на Android</string>
+<string name="WWW">Обновление можно проверить по адресу:\nhttp://asqlitemanager.sourceforge.net</string>
+<string name="AAA">Прочитать больше о aSQLiteManager можно здесь:\nhttp://aaa.andsen.dk/aSQLiteManager.html</string>
+<string name="MAIL">Коментарии и пожелания:\nandroid41cv@gmail.com</string>
+<string name="OpdenDB">Открыть базу</string>
+<string name="About">О программе</string>
+<string name="Location">Местоположение</string>
+<string name="View">Вид</string>
+<string name="Yes">Да</string>
+<string name="No">Нет</string>
+<string name="DBTables">Tables</string>
+<string name="DBViews">Views</string>
+<string name="DBIndexs">Index</string>
+<string name="DBTable">Таблица</string>
+<string name="DBView">Вид</string>
+<string name="DBIndex">Индекс</string>
+<string name="DBField">Поле</string>
+<string name="DBData">Данные</string>
+<string name="DBSQL">SQL</string>
+<string name="OpenDatabase">Открыть базу</string>
+<string name="NoSDCard">SDCard не доступна</string>
+<string name="OK">OK</string>
+<string name="Path">Путь:</string>
+<string name="Database">База данных</string>
+<string name="DBQuery">Query</string>
+<string name="Run">Пуск</string>
+<string name="DBFields">Поля</string>
+<string name="PgUp">PgUp</string>
+<string name="PgDn">PgDn</string>
+<string name="Option">Опции</string>
+<string name="Help">Помощь</string>
+<string name="HelpHeader">Помощь по aSQLiteManager</string>
+<string name="PageSize">Размер страницы</string>
+<string name="PressMenuSQL">Нажмите кнопку /"Меню/" для построения SQL</string>
+<string name="PageSizeText">Количество отображаемых строк во-время считывания данных</string>
+<string name="Open">Открыть</string>
+<string name="NoResult">Нет результатов</string>
+<string name="NewDB">Новая база данных</string>
+<string name="NewDBSDCard">Новая база данных на SDCard</string>
+<string name="NewDBPath">Путь к новой базе</string>
+<string name="AutoIndex">SQLite не хранить определения авто индекса</string>
+<string name="Message">Уведомление</string>
+<string name="Error">Ошибка</string>
+<string name="NoFileName">Должно быть указано имя файла</string>
+<string name="DBQueryType">Тип запроса</string>
+<string name="OnClickedMess">Вы нажали на этой SQLite базе:</string>
+<string name="OnClickedOpen">Открыть базу в \naSQLiteManager</string>
+<string name="RecentSQL">Последняя база</string>
+<string name="Transaction">Транзакция</string>
+<string name="BeginTransaction">Начало транзакции</string>
+<string name="Commit">Зафиксировать</string>
+<string name="Rollback">Откатить</string>
+<string name="InTransaction">В транзакции</string>
+<string name="UpdatesCommitted">Обновить фиксации</string>
+<string name="UpdatesRolledback">Обновить откаты</string>
+<string name="NothingToRolledback">Нет, что откатывать</string>
+<string name="NothingToCommit">Нет, что фиксировать</string>
+<string name="IsNotADatabase">это не база данных SQLite</string>
+<string name="Export">Экспотр базы данных</string>
+<string name="Restore">Востановить базу данных</string>
+<string name="Cancel">Отмена</string>
+<string name="ExportData">Экспорт</string>
+<string name="NoExportToRestore">Нет экспорта для востановления</string>
+<string name="AlwaysJustOpen">Всегда открывать базу</string>
+<string name="Reset">Сброс</string>
+<string name="OpenSQL">Открыть SQL файл</string>
+<string name="Working">Идет обработка</string>
+<string name="ReadingScript">Идет чтение скрипта</string>
+<string name="ExecuteStatement">Выполнить statement</string>
+<string name="MustNotBeEmpty">Не должно быть пустым</string>
+<string name="ShowAtStartUp">Показывать приветствие при старте</string>
+<string name="Welcome">Добро пожаловать</string>
+<string name="DumpTable">Сделать дамп таблицы</string>
+<string name="TableDumpep">Дамп таблицы %s завершен</string>
+<string name="DumpFailed">Ой! Дамп завершился с ошибкой</string>
+<string name="ErrorNothingToExport">Нет, что экспортировать!</string>
+<string name="DataExported">Данные экспортированные</string>
+<string name="DataBaseExported">База данных экспортирована</string>
+<string name="DataBaseRestored">База данных востановлена</string>
+<string name="Patience">Терпение, это может занять некоторое время</string>
+<string name="Recently">Недавно открытые</string>
+<string name="RecentlyTxt">Количество недавно открытых баз данных для сохранения</string>
+<string name="ROSystemTable">sqlite_master - это системная таблица только для чтения</string>
+<string name="CouldNotCreate">Не могу создать:</string>
+<string name="SystemFolder">Системная папка</string>
+<string name="SystemFolderText">Если Ваш телефон рутован, Вы можете изменить системную таблицу с помощью aSQLiteManager используя aShell</string>
+<string name="DBInfo">Информация о базе данных</string>
+<string name="DatabaseInfo">Информация о базе данных</string>
+<string name="DatabaseExists">База данных уже существует!</string>
+<string name="RateMsg">Вы уже пользуетесь программой aSQLiteManager более недели или по крайней мере 10 раз.\nЕсли Вам нравится пользоваться программой, пожалуйста поддержите проэкт, выставив хороший рейтинг.\nВы также можете пожертвовать не большую сумму (на домашней страннице). Эти деньги будут использованы для улучшения программы.\nСпасибо за вашу поддержку!</string>
+<string name="Rate">Оценить</string>
+<string name="Later">Я сделаю это в следуущий раз</string>
+<string name="NoThanks">Я сделал это</string>
+<string name="EditDeleteRow">Править или удалить эту строку #</string>
+<string name="Delete">Удалить</string>
+<string name="CopiedToClipboard">Текст скопирован в буфер обмена</string>
+<string name="InsertNewRow">Вставить новую строку</string>
+<string name="EditRow">Править строку</string>
+<string name="Edit">Править</string>
+<string name="New">Новая</string>
+<string name="First">Первая строка</string>
+<string name="Last">Последняя строка</string>
+<string name="Filter">Фильтр</string>
+<string name="EnterWhere">Укажите параметры отбора</string>
+<string name="StrangeErr">Если Вы можете воспроизвести эту ошибку, пожалуйста, сообщите мнепо почте, как спровоцировать её;-)\nВы также можете использовать LogViewer для извлечения дополнительной информации из системного лога, чтобы помочь мне выяснить в чем проблема.</string>
+<string name="NotAnArror">Не ошибка</string>
+<string name="Normal">Нормальный</string>
+<string name="Root">Root</string>
+<string name="RootNeeded">Для доступа необходимы права Root</string>
+<string name="RootWarning">нет доступа Root</string>
+<string name="EnterRoot">Ввод корневого каталога, будьте осторожны:</string>
+<string name="LeavingRoot">Оставляя корневой каталог:</string>
+<string name="RootEdit1">Вы хотите открыть копию</string>
+<string name="RootEdit2">системный файл?</string>
+<string name="Warning">Предупреждение</string>
+<string name="CommitChanges">Фиксация изменений?</string>
+<string name="CommitChangesTo">Зафиксировать изменения:</string>
+<string name="OneMoreToExit">Нажмите еще раз, чтобы выйти!</string>
+<string name="FilterHint">Введите фильтр</string>
+<string name="Clear">Очистить</string>
+<string name="EnterFilter">Введите фильтр</string>
+<string name="SuShell">Расположение su </string>
+<string name="SuShellText">su может быть расположен в разных местах внутри или за пределами вашего пути</string>
+<string name="PauseTitle">Пауза в мс</string>
+<string name="PauseText">Время ожидания после запуска копирования базы данных перед её открытием</string>
+<string name="RootNotFound">Root shell binary не найден в стандартном месте (или телефон не рутован). Вы можете определить расположение кroot shell в конфигурации.</string>
+<string name="RootFilePickerTxt">Используйте root file picker</string>
+<string name="RootFilePickerMsg">Используйте aShell root file picker для доступа к базам данных на рутованих девайсах</string>
+<string name="BasicConfiguration">Базовые конфигурации</string>
+<string name="SuperUserPreferences">Настройки Super user - Эксперементально</string>
+<string name="DebugPreferences">Настройки отладки</string>
+<string name="LoggingTitle">Логирование</string>
+<string name="LoggingText">Включить ведение журнала отладки для получения информации</string>
+<string name="RootUseWarning">Редактирование системных баз данных является экспериментальным и потенциально         опасным - Вы можуту уничтожить данные.\n\nНе изменяйте системные базы данных, если Вы не знаете, что Вы делаете!\n\nБерегите себя!\n</string>
+<string name="ShowRootWarning">Получил это - прекратить говорить мне</string>
+<string name="CreateTable">Новая таблица</string>
+<string name="AddField">Добавить поле</string>
+<string name="CreateField">Создать поле</string>
+<string name="MustEnterFieldName">Вы должны ввести имя поля!</string>
+<string name="MustEnterTableNameAndOneField">Вы должны ввести имя таблицы, и по крайней мере одно поле!</string>
+<string name="SQLPreferences">Настройки SQL</string>
+<string name="CannotDeleteAutoIndex">Не удается удалить автоматически сгенерированный index</string>
+<string name="DeleteIndex">Удалить index</string>
+<string name="DeleteView">Удалить view</string>
+<string name="DeleteTable">Удалить таблицу</string>
+<string name="CannotDeleteSysTable">Не удается удалить системную таблицу</string>
+<string name="DropItem">Переместить пункт?</string>
+<string name="IndexDefCopied">Описание индекса скопировано в буфер обмена</string>
+<string name="DescAutoIncError">DESC и AutoInc не должны быть проверены, хотя руководство говорит иначе</string>
+
+<!-- Translated to French to here -->
+
+<string name="NoRecentFiles">Нет последних файлов;-(</string>
+<string name="FontSizeText">Размер шрифта данных списка</string>
+<string name="FontSize">Размер шрифта</string>
+<string name="DefaultModeText">Вид по умолчанию в таблице просмотра</string>
+<string name="DefaultMode">Вид по умолчанию</string>
+<string name="TableDef">Table def.</string>
+<string name="NewRec">New Rec.</string>
+<string name="MainScreenInPortrait">Главный экран в портретном режиме</string>
+<string name="MainScreenInPortraitText">Всегда держать главный экран в портретном режиме (после перезагрузки)</string>
+<string name="FKLists">FK списки</string>
+<string name="FKListsText">Использовать списки при редактировании FK полей</string>
+<string name="SaveSQL">Сохранить SQL</string>
+<string name="SaveSQLText">Сохранить SQL в базе данных</string>
+<string name="ForeignKeys">Включить foreign keys</string>
+<string name="ForeignKeysText">Включить ограничения для foreign key </string>
+<!-- Common strings for Dialogs -->
+<string name="DialogYes">Да</string>
+<string name="DialogNo">Нет</string>
+<string name="DialogOK">OK</string>
+<string name="DialogCancel">Отмена</string>
+<string name="DialogAgain">Снова</string>
+<string name="DialogRetry">Повторить</string>
+<!-- Dialog specific strings -->
+<string name="DialogSureResetAllSettingsTitle">Внимание</string>
+<string name="DialogSureResetAllSettingsMsg">Вы действительно хотите сбросить все настройки?</string>
+<!-- Toast Messages -->
+<string name="ToastResetedAllSettings">Все настройки сброшены до стандартных</string>
+<string name="FilePickerChooseThisFolder">Выбрать эту папку</string>
+<string name="NoDatabaseOpen">Открытая база данных не валидна!</string>
+<string name="InvalidOrEmptyFK">Foreign key не коректен или пустой</string>
+<string name="PlaceNewDBHere">Задать текущий путь для новой базы данных</string>
+<string name="NothingToInsert">Нет данных для вставки!</string>
+<string name="SelectFromList">Выберите из списка</string>
+<string name="SelectValue">Выберите значение</string>
+<string name="FKDefError">Оба foreign key таблиц и полей должно быть указаны ""</string>
+<string name="Tip">Руководство!</string>
+<string name="ShowTipAgain">Показывать это руководство снова?</string>
+<string name="Tip1">Из этого основного экрана Вы можете:\n\nОткрыть существующие базы данных, расположенной на SDcard\nСоздать новую базу данных на SDcard\nОткрыть одну из ваших последних использованных баз данных\nПоказать краткую информацию о aSQLiteManage\n\nВы также можете настроить aSQLiteManager, просмотреть список реализованныхФункции и сбросить конфигурации, нажав кнопку меню.\n\nС aSQLIteManager Вы можете делать все с SQLite, в пределах возможностей последней. Однако, исключены почти все измененияСтруктуры таблицы.</string>
+<string name="Tip2">С экрана запросов Вы можете::\n\nВыполнить любые допустимые SQLite SQL statements.\n\nИспользуя кнопку меню Вы сможете иметь доступ до мастера создание SQL statements. Он поможет Вам в создании select, create, drop, delete и insert команд.\n\n Результаты запроса могут быть экспортированы в текстовый файл (который будет находиться в том же каталоге где и база данных).\n\nВы можете начать транзакцию, откатится назад и совершить фиксирование данных.\n\nЧтобы скопировать содержимое ячейки данных в буфер обмена, просто нажмите на ячейке.</string>
+<string name="Tip3">Из экрана базы данных Вы можете:\n\nПросматривать все таблицы, представления и индексы.\n\nУдалить таблицы, представления и индексы длинным нажатием на объект, который требуется удалить. Вы не можете удалить автоматически генерируемые индексы.\n\nИз кнопки меню Вы имеете доступ к:\nЭкспорту и восстановлению баз данных\nОткрытию файла, который содержит SQL команды (команды в скрипте могут быть выполнены только строка за строкой)\nИнформации о текущей базе данных и\n мастере новых таблиц, который может быть вызван путем создания новой таблицы</string>
+<string name="Tip4">Из экрана просмотра таблицы Вы можете:\nПросматривать структуру выбранной таблицы\nПросматривать данные постранично (установить размер страницы можно в настройках на главном экране)\nДобавить новые записи (используя кнопку "Новая" или нажав "Новая" в первой ячейки таблицы)\nИзменить строку, нажав Править в первой ячейке строки\nУдалить строку нажав Править, а потом Удалить\n\nИз меню Вы можете:\n\nПерейти на первую/последнюю страницу\nДобавить простой фильтр для данных\nСделать дамп таблицы в SQL скрипт (расположенный в том же каталоге,где и база данных)\nПросмотреть SQL скрипт, необходимый для создания таблицы. Его можно скопировать в буфер обмена, нажав на ячейку</string>
+
+<string name="Translation">Переведите aSQLiteManager на ваш язык и получите свое имя здесь</string>
+
+<!-- Translated to German to here -->
+<!-- Translated to Catalan to here -->
+<!-- Translated to French to here -->
+<!-- Translated to Italian to here -->
+<!-- Translated to Brazilian to here -->
+<!-- Translated to Spanish to here -->
+
+<string name="DeleteField">Удалить поле</string>
+<string name="NoSuchDatabase">Нет такой базы данных</string>
+<string name="MaxWidth">Максимальная ширина поля</string>
+<string name="MaxWidthText">Максимальная ширина поля в grid view</string>
+<string name="AddToFilter">Добавить в фильтр</string>
+<string name="EnterValues">Введите значение(я)</string>
+<string name="SQLEditor">SQL редактор</string>
+<string name="QEMaxLines">Макс. количечество строк, когда в фокусе</string>
+<string name="QEMaxLinesText">Максимальное количество строк в редакторе при редактировании</string>
+<string name="QEMinLines">Строки не в фокусе</string>
+<string name="QEMinLinesText">Количество строк в редакторе, когда он не в фокусе</string>
+<string name="CSVExport">Экспорт в CSV файл</string>
+<string name="CSVImport">Импорт из CSV-файла</string>
+<string name="BlobReadWrite">Чтение из / запись в Blob</string>
+<string name="BlobHint">In same dir. as database</string>
+<string name="EnterFileName">Введите имя файла</string>
+<string name="Extract">Извлечение</string>
+<string name="Load">Загрузка</string>
+<string name="MustGiveFileName">Вы должны дать имя файлу</string>
+<string name="BlobEditMessage">Извлечь из / или загрузить новые данные в BLOB поле из\n</string>
+<string name="BlobExtractMessage">Извлечение данных из BLOB поля из\n</string>
+<string name="CSVExportError">Ошибка экспотра CSV:\n</string>
+<string name="CSVExportSavedHere">Экспортирован и сохранен CSV в директорию:\n</string>
+<string name="CSVEImortError">Ошибка импотра CSV:\n</string>
+<string name="CanNotRead">Не могу прочитать:</string>
+<string name="CSVImported">CSV импортирован из:\n</string>
+<string name="FileNotFound">Файл не найден!</string>
+<string name="CanNotReadFile">Не могу прочитать файл!</string>
+
+<!-- Translated to Rusian to here -->
+
+<string name="PlaceItHere">Разместите его здесь</string>
+<string name="IgnoreCase">Игнорировать</string>
+<string name="NewDBName">Имя базы данных</string>
+<string name="Ascending">Восходящий</string>
+<string name="ByName">По имени</string>
+<string name="ByExtension">По расширению</string>
+<string name="ByDate">По дате</string>
+<string name="BySize">По размеру</string>
+<string name="Sorting">Сортировка</string>
+<string name="SortingAndFilter">Сортировка и фильтр</string>
+<string name="FileTypeFilter">Сепаратор для файлов ; </string>
+<string name="UseRoot">Использовать root?</string>
+<string name="UseRootText">Разрешить корневой доступ к системным файлам ?</string>
+<string name="CommitText">База данных изменена. Применить изменения?</string>
+<string name="ReRead">Перечитать csv</string>
+<string name="NoFieldsSelected">Нет выбранных полей</string>
+<string name="LinesToSkip">Строки для пропуска</string>
+<string name="FieldsToImport">Поля для импорта в</string>
+<string name="FieldsToExport">Поля для экспорта</string>
+<string name="NewFileName">Имя файла</string>
+<string name="NewFilePath">Путь</string>
+<string name="FileNameAndPath">Введите имя файла и выберите путь</string>
+<string name="Save">Сохранить</string>
+<string name="Exit">Выход</string>
+<string name="Favorites">Избранные</string>
+<string name="NoFavorites">Нет избранных ;-(</string>
+<string name="AddToFavorites">Добавить в избранное</string>
+<string name="NoRootMsg">Root shell не найден в:\nsu,\n/system/bin/su and\n/system/xbin/su\n\nЕсли Вы знаете расположение su , можете настроить его в конфигурации</string>
+<string name="SuFoundMSG">Root shell найден</string>
+<string name="CannotReadSystemDirs">Невозможно прочитать системные каталоги</string>
+
+<!-- Translated to Danish to here -->
+
+<!-- Place new text just above here -->
+<!-- From here text changes in every version -->
+
+<!-- List of functionality for help screen -->
+
+<!-- Here write what is new in this version -->
+<string name="WelcomeMsg">aSQLiteManager Donate версия.\nБольшое спасибо за пожертвования!\naSQLiteManager - это свободный SQLite менеджер с открытым исходным кодом / приложение для устройств Android.
+  	  You can support development by
+  	  buying the donate version. If you do this you will be among the first to get the
+  	  new features. Right now the donate version support direct editing of system
+  	  databases on rooted devices.
+
+\n\nЧто нового у версии 3.6:
+      \n\nThere is quite a few new features in version 3.6:
+			\n\n•	New file picker with:
+			\n	•	Show file names, sizes, dates and icons
+			\n	•	Sorting (name, extension, size, date - ascending, descending, ignore case) and
+			\n	•	filtering of files (e.g. *.sqlite;*.db) in file picker
+			\n	•	Favorites directories for fast navigation to often visited places 
+			\n	•	CSV export wizards that allows export of user selected fields
+			\n	•	Import wizards that allows the user select a CSV file and which column from
+			the CSV file to import into which fields in the current table. 
+			\n	•	Now the user dictionary are updated with your words
+			\n	•	Code clean up binaries decreased with approximately 20%
+			\n	•	Import and export of tables with triggers
+			\n	•	Better handling of triggers during update with record editor
+			\n	•	Translated to Russian, updated German, Catalan and French translations
+			\n	•	Fixed problems with CSV export - nulls and special table names are now
+			handled correctly
+			\n	•	Some other problem solved
+
+\n\nДля просмотра полного списка изменений, перейдите по ссылке:\nhttp://aaa.andsen.dk/aSQLiteManager.html\n\nКомментарии, сообщения об ошибке и пожелания приветствуются. Просто напишите мне по адресу:\nandroid41cv@gmail.com\n\nИ спасибо тем из Вас, которые сообщают о ошибках вместо того, чтобы жаловаться;-)\n\nНадеюсь, Вам понравится приложение!\n\nMartin</string>
+</resources>

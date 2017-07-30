@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+  <TextView 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/FileNameAndPath" />
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+			android:orientation="vertical" >
+		<EditText 
+	 	    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:hint="@string/NewFileName"
+		 		android:id="@+id/save_file_name"/>
+			<LinearLayout 
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+					android:orientation="horizontal" >
+				<Button 
+			 	    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:text="..."
+				    android:id="@+id/save_fp"
+				    />
+ 				<TextView
+			 	    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:hint="@string/NewFilePath"
+				 		android:id="@+id/save_file_name"
+						android:textIsSelectable="true" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+			android:orientation="horizontal" >
+	  <Button 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+    		android:layout_weight="1"
+    		android:id="@+id/save_cansel"
+		    android:text="@string/Cancel" />
+	  <Button
+	    	android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_weight="1"
+    		android:id="@+id/save_ok"
+   		 	android:text="@string/OK" />
+ 	</LinearLayout>    
+</LinearLayout>

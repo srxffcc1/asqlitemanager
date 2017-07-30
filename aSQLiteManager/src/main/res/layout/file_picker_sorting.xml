@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/cbSorting"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_horizontal"
+        android:text="@string/SortingAndFilter"
+        android:textSize="20sp" />
+    <CheckBox
+        android:id="@+id/cbAscending"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Ascending"
+        android:checked="true" />
+    <CheckBox
+        android:id="@+id/cbIgnoreCase"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/IgnoreCase"
+        android:checked="false" />
+    <RadioGroup
+        android:id="@+id/radioSortBy"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+      <RadioButton
+          android:id="@+id/radioName"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/ByName" 
+          android:checked="true" />
+      <RadioButton
+          android:id="@+id/radioExt"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/ByExtension" />
+      <RadioButton
+          android:id="@+id/radioDate"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/ByDate" />
+      <RadioButton
+          android:id="@+id/radioSize"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/BySize" />
+    </RadioGroup>
+		<EditText 
+          android:id="@+id/edFileFilter"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:hint="@string/FileTypeFilter" />
+    <Button
+        android:id="@+id/btnSOK"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/OK" />
+</LinearLayout>
